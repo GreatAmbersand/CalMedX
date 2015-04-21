@@ -25,7 +25,9 @@ var CBPatientVisitHistories = React.createClass({displayName: "CBPatientVisitHis
          	React.createElement("span", {className: "linkClass", onClick: this.handleClick.bind(this,index), id: i}, "[+]")
 		  ), 
           React.createElement("div", {id: divid, className: "nodisplay"}, 
-          	React.createElement("p", null, patientVisitHistory.notes)
+			React.createElement("br", null), 
+          	React.createElement("p", null, patientVisitHistory.cc), 
+          	React.createElement("p", null, patientVisitHistory.vitals)
           )
         )
       );

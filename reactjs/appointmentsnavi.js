@@ -11,7 +11,7 @@ var CMAppointmentsNavi = React.createClass({
         <div className="navbar-header">
           <a className="navbar-brand" href="index.html">eCalMedX</a>
         </div>
-
+		<div className="text-center"><div className="panel-heading">Primary Care Clinic</div></div>
 
         <ul className="nav navbar-top-links navbar-right">
           <li className="dropdown">

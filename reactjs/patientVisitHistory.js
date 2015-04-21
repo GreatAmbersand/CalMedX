@@ -25,7 +25,9 @@ var CBPatientVisitHistories = React.createClass({
          	<span className='linkClass' onClick={this.handleClick.bind(this,index)} id={i}>[+]</span>
 		  </dl>
           <div id={divid} className='nodisplay'>
-          	<p>{patientVisitHistory.notes}</p>
+			<br></br>
+          	<p>{patientVisitHistory.cc}</p>
+          	<p>{patientVisitHistory.vitals}</p>
           </div>
         </div>
       );

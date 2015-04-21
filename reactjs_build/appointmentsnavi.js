@@ -11,7 +11,7 @@ var CMAppointmentsNavi = React.createClass({displayName: "CMAppointmentsNavi",
         React.createElement("div", {className: "navbar-header"}, 
           React.createElement("a", {className: "navbar-brand", href: "index.html"}, "eCalMedX")
         ), 
-
+		React.createElement("div", {className: "text-center"}, React.createElement("div", {className: "panel-heading"}, "Primary Care Clinic")), 
 
         React.createElement("ul", {className: "nav navbar-top-links navbar-right"}, 
           React.createElement("li", {className: "dropdown"}, 

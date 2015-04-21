@@ -32,7 +32,7 @@ var CBPatientAppointments = React.createClass({
     return (
 	 <div className="panel panel-default">
      	<div className="panel-heading">
-			Dr Braustein's Appointments for {today}
+			Dr Morris's Appointments for {today}
         </div>
 		<div className="panel-body">
 			<div className="table-responsive">
